@@ -3,8 +3,8 @@ class SupernoteObsidianSync < Formula
 
   desc "Sync Supernote handwritten notes to Obsidian with Mistral OCR"
   homepage "https://github.com/Kulturban/supernote-obsidian-sync"
-  url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "ae1d1711db59d6de21ffb73915d428fb24dd538da20a8a8c720bd5ad70cb44b0"
+  url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.4.0.tar.gz"
+sha256 "ab9d977da0c6feb6880d5bae3c465ceee98d3e3ad8c5be4f23a1ad9946f471e8"
   license "MIT"
 
   depends_on "python@3.12"
@@ -21,8 +21,8 @@ depends_on "rust" => :build
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/f3/ce/ee2ecad540810a79593028e88299baeae54d346cc7a0d94b6199988b89b1/certifi-2026.5.20.tar.gz"
-    sha256 "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d"
+    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
+    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
   end
 
   resource "charset-normalizer" do
