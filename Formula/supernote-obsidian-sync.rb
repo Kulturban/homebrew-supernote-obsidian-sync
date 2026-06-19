@@ -3,8 +3,8 @@ class SupernoteObsidianSync < Formula
 
   desc "Sync Supernote handwritten notes to Obsidian with Mistral OCR"
   homepage "https://github.com/Kulturban/supernote-obsidian-sync"
-  url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.6.1.tar.gz"
-  sha256 "9ddeab56261b9eee713db5ac8d8777d457efed1cf530cc80dc0ede0e1bdc657e"
+  url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "4f8c19e7ec41a633b3f601a35a2d5f61ea08d0c746f1ae037204167d2fd36dfc"
   license "MIT"
 
   depends_on "python@3.12"
@@ -44,6 +44,9 @@ class SupernoteObsidianSync < Formula
   end
 
   test do
-    assert_match "Supernote", shell_output("#{bin}/supernote-obsidian-sync --help")
+    output = shell_output("#{bin}/supernote-obsidian-sync --help")
+    assert_match "Supernote", output
+    assert_match "--diagnose", output
+    assert_match "--status", output
   end
 end
