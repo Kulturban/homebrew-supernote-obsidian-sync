@@ -3,8 +3,8 @@ class SupernoteObsidianSync < Formula
 
   desc "Sync Supernote handwritten notes to Obsidian with Mistral OCR"
   homepage "https://github.com/Kulturban/supernote-obsidian-sync"
-url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.5.0.tar.gz"
-sha256 "2e28344fd675ded57ebed2ce176779e3d16b8d80f060f3177bf8d62a0306c364"
+  url "https://github.com/Kulturban/supernote-obsidian-sync/archive/refs/tags/v0.6.1.tar.gz"
+  sha256 "9ddeab56261b9eee713db5ac8d8777d457efed1cf530cc80dc0ede0e1bdc657e"
   license "MIT"
 
   depends_on "python@3.12"
