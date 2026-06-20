@@ -1,8 +1,8 @@
 cask "supsidian" do
-  version "0.9.0"
+  version "0.9.1"
 
   url "https://github.com/Kulturban/supernote-obsidian-sync/releases/download/v#{version}/Supsidian-v#{version}.zip"
-  sha256 "43276d715264d1b76a7ed5f87886fde24a142fbb48cb029e9b550715fa0f0917"
+  sha256 "442f45b16e44fef3a821eb1dd067c68eb299e8564307246a2491915c15a1ea3e"
 
   name "Supsidian"
   desc "Menu bar app for syncing Supernote notes to Obsidian"
